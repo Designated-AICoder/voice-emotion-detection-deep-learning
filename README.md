@@ -59,23 +59,6 @@ The following datasets are used for training and evaluation:
 3. To evaluate the model:
    - Run the "Evaluation" section, which includes accuracy, loss plots, and the confusion matrix.
 
-## File Structure
-```
-emotion-detection-voice-dl/
-├── datasets/
-│   ├── RAVDESS/
-│   ├── CREMA-D/
-│   ├── TESS/
-│   └── SAVEE/
-├── Emotion_Detection.ipynb
-├── requirements.txt
-├── README.md
-├── saved_models/
-│   ├── emotion_model.keras
-│   ├── scaler.pkl
-│   └── encoder.pkl
-```
-
 ## Future Improvements
 - Incorporate more advanced models like transformers.
 - Explore multi-modal approaches combining speech and text analysis.
